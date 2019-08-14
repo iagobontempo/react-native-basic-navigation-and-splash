@@ -11,6 +11,7 @@ export const Container = styled.View`
 export const Logo = styled.Image`
     width: 150px;
     height: 150px;
+    resizeMode: contain;
 `
 
 export const AppName = styled.Text`

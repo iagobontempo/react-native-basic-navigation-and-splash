@@ -39,6 +39,7 @@ const MenuNavigation = createBottomTabNavigator(MenuRoutes, MenuConfig)
 
 const SplashRouter = createSwitchNavigator({
     Splash: Splash,
+    // Login: Login, 
     App: MenuNavigation,
 })
 
